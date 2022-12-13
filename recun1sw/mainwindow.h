@@ -83,10 +83,10 @@ private slots:
 
 private:
     enum messageType: unsigned char {heartRate   = 0xf7,
-                                         heartRateRT = 0xe5,
-                                         O2          = 0x34,
-                                         steps       = 0xb2,
-                                         otherSports = 0xfd};
+                                     heartRateRT = 0xe5,
+                                     O2          = 0x34,
+                                     steps       = 0xb2,
+                                     otherSports = 0xfd};
 
     Ui::MainWindow *ui;
     int logSize;
