@@ -141,12 +141,12 @@ Es útil conocer la lista de servicios y características para saber cómo hay q
 
 Avanzando en la conversación entre el teléfono y el reloj se pueden ver paquetes con datos. Usando el filtro `btatt.value` se muestran únicamente estos paquetes:
 
-![filtro btatt.value](https://user-images.githubusercontent.com/55441185/208172888-6555a5a1-29da-4969-983c-fb46cc55604f.png)
+![Filtro btatt.value](https://user-images.githubusercontent.com/55441185/208172888-6555a5a1-29da-4969-983c-fb46cc55604f.png)
 
 
 Seleccionando en el panel central Bluetooth Attribute Protocol y desplegando sus campos podemos ver el campo `Value`, que en este caso tiene un valor de `0x01f01708`. Este campo es el dato devuelto por el reloj a una consulta que ha realizado la App del teléfono. En la imagen anterior se puede ver que la petición se realizó en el paquete 332, pero para ver el paquete 332 es necesario volver a usar el filtro `btatt`.
 
-![filtreo batt](https://user-images.githubusercontent.com/55441185/208172965-b45fb1ff-6906-4e41-a378-c1215d8cfb54.png)
+![Filtro batt](https://user-images.githubusercontent.com/55441185/208172965-b45fb1ff-6906-4e41-a378-c1215d8cfb54.png)
 
 
 En la descripción del paquete 332 y en su contendido se puede ver que es una petición de lectura usando el handle `0x002a`. Un handle es un número asociado a una característica en concreto, o lo que es lo mismo, para leer un dato de una característica hay que hacer una petición de lectura a su handle asociado.
