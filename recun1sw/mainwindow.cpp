@@ -869,7 +869,7 @@ void MainWindow::heartRateMessage(const QByteArray &dataRecived)
     hour  = static_cast<unsigned char>(dataRecived.at(5));
     xValue.setDate(QDate(year, month, day));
     xValue.setTime(QTime(hour, 10));
-    xValue = xValue.addSecs(-60 * 60 * 2); // data are from 2 hours before
+    xValue = xValue.addSecs(-60 * 60 * 2); // data is from 2 hours before
     if (! xValue.isValid())
     {
         showMessage(tr("Heart Rate Dump. Error: Invalid date. Year: %1 Month: %2 Day: %3 Hour: %4 Raw Data: %5")
@@ -1065,7 +1065,7 @@ void MainWindow::O2Message(const QByteArray &dataRecived)
     hour  = static_cast<unsigned char>(dataRecived.at(6));
     xValue.setDate(QDate(year, month, day));
     xValue.setTime(QTime(hour, 10));
-    xValue = xValue.addSecs(-60 * 60 * 2); // data are from 2 hours before
+    xValue = xValue.addSecs(-60 * 60 * 2); // data is from 2 hours before
     if (! xValue.isValid())
     {
         showMessage(tr("O2 Dump. Error: Invalid date. Year: %1 Month: %2 Day: %3 Hour: %4 Raw Data: %5")
