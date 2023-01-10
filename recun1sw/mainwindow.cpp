@@ -592,6 +592,7 @@ void MainWindow::btServiceDetailsDiscovered(QLowEnergyService::ServiceState newS
                 clearCharts();
 
                 // Request the data dumps
+                showMessage(tr("Requesting Heart Rate Dump."), true);
                 service->writeCharacteristic(c, makeDumpRequest(heartRate));
 
                 // The remaining dumps are made when the previous one is finished.
@@ -844,7 +845,7 @@ void MainWindow::heartRateMessage(const QByteArray &dataRecived)
         showMessage(tr("Heart Rate Dump Finnished. Raw Data: %1")
                     .arg(dataRecived.toHex(' ')),
                     true);
-        showMessage("Requesting Steps Dump.", true);
+        showMessage(tr("Requesting Steps Dump."), true);
         dumpService->writeCharacteristic(dumpCharacteristic, makeDumpRequest(steps));
         return;
     }
@@ -1226,7 +1227,7 @@ void MainWindow::stepsMessage(const QByteArray &dataRecived)
                     true);
         ui->stepsChartSlider->setValue(stepsChartAxisX->count() - 1);
 
-        showMessage("Requesting O2 Dump.", true);
+        showMessage(tr("Requesting O2 Dump."), true);
         dumpService->writeCharacteristic(dumpCharacteristic, makeDumpRequest(O2));
         return;
     }

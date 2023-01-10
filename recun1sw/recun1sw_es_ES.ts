@@ -209,168 +209,183 @@ Distribuido bajo licencia GPL 3.</translation>
         <translation>Característica detectada. UUID del servicio: %1 UUID de la característica: %2 Nombre de la característica: &quot;%3&quot; Propiedades: 0x%4</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="668"/>
+        <location filename="mainwindow.cpp" line="595"/>
+        <source>Requesting Heart Rate Dump.</source>
+        <translation>Solicitando volcado de frecuencia cardíaca.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="687"/>
         <source>Characteristic %1 changed its value to an empty value.</source>
         <translation>La característica %1 ha cambiado su valor a un valor vacío.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="675"/>
+        <location filename="mainwindow.cpp" line="694"/>
         <source>Characteristic %1 changed its value to: %2</source>
         <translation>La característica %1 ha cambiado su valor a: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="696"/>
+        <location filename="mainwindow.cpp" line="715"/>
         <source>Other Sports Dump value: %1</source>
         <translation>Volcado Otros Deportes valor: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="700"/>
+        <location filename="mainwindow.cpp" line="719"/>
         <source>UNKNOW DATA. Reverse engineering is not finished!!!! Characteristic %1 changed its value to: %2</source>
         <translation>DATOS DESCONOCIDOS. ¡¡¡¡La ingeniería inversa no está terminada!!!! La característica %1 ha cambiado su valor a: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="709"/>
-        <location filename="mainwindow.cpp" line="717"/>
+        <location filename="mainwindow.cpp" line="728"/>
+        <location filename="mainwindow.cpp" line="736"/>
         <source>%1 Characteristic: %2 Value: %3</source>
         <translation>%1 Característica: %2 Valor: %3</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="725"/>
-        <location filename="mainwindow.cpp" line="733"/>
+        <location filename="mainwindow.cpp" line="744"/>
+        <location filename="mainwindow.cpp" line="752"/>
         <source>%1 Descriptor: %2 Value: %3</source>
         <translation>%1 Descriptor: %2 Valor: %3</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="742"/>
+        <location filename="mainwindow.cpp" line="761"/>
         <source>%1 Error: %2</source>
         <translation>%1 Error: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="791"/>
+        <location filename="mainwindow.cpp" line="810"/>
         <source>Watch is showing HR chart. Notification: Year: %1 Month: %2 Day: %3 Hour: %4 Minute: %5 Max of day: %6. Min of day: %7 Unknown: %8 Raw Data: %9</source>
         <translation>El reloj está mostrando el gráfico de frec. cardiaca. Notificación: Año: %1 Mes: %2 Día: %3 Hora: %4 Minuto: %5 Máximo del día: %6 Min del día: %7 Desconocido: %8 Datos brutos: %9</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="813"/>
+        <location filename="mainwindow.cpp" line="832"/>
         <source>Not requested heart rate notification. Year: %1 Month: %2 Day: %3 Hour: %4 Minute: %5 Beats: %6. Raw Data: %7</source>
         <translation>Notificación de frecuencia cardíaca no solicitada. Año: %1 Mes: %2 Día: %3 Hora: %4 Minuto: %5 Pulsaciones: %6. Datos brutos: %7</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="826"/>
+        <location filename="mainwindow.cpp" line="845"/>
         <source>Heart Rate Dump Finnished. Raw Data: %1</source>
         <oldsource>Hear Rate Dump Finnished. Raw Data: %1</oldsource>
         <translation>Volcado de frecuencia cardíaca finalizado. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="836"/>
+        <location filename="mainwindow.cpp" line="848"/>
+        <source>Requesting Steps Dump.</source>
+        <translation>Solicitando volcado de pasos.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="855"/>
         <source>Heart Rate Dump. Error: Invalid data. Raw Data: %1</source>
         <oldsource>Hear Rate Dump. Error: Invalid data. Raw Data: %1</oldsource>
         <translation>Volcado de frecuencia cardíaca. Error: Datos invalidos. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="857"/>
+        <location filename="mainwindow.cpp" line="876"/>
         <source>Heart Rate Dump. Error: Invalid date. Year: %1 Month: %2 Day: %3 Hour: %4 Raw Data: %5</source>
         <oldsource>Hear Rate Dump. Error: Invalid date. Year: %1 Month: %2 Day: %3 Hour: %4 Raw Data: %5</oldsource>
         <translation>Volcado de frecuencia cardíaca. Error: Fecha no válida. Año: %1 Mes: %2 Día: %3 Hora: %4 Datos brutos: %5</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="914"/>
+        <location filename="mainwindow.cpp" line="933"/>
         <source>Heart Rate Dump. Year: %1 Month: %2 Day: %3 Data: %4 Raw Data: %5</source>
         <oldsource>Hear Rate Dump. Year: %1 Month: %2 Day: %3 Data: %4 Raw Data: %5</oldsource>
         <translation>Volcado de frecuencia cardíaca. Año: %1 Mes: %2 Día: %3 Hora: %4 Datos brutos: %5</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="933"/>
+        <location filename="mainwindow.cpp" line="952"/>
         <source>Real-time heart rate. The watch is displaying the HR chart. Raw Data: %1</source>
         <oldsource>Heart Rate Real Time. The watch is displaying the HR chart. Raw Data: %1</oldsource>
         <translation>Frecuencia cardíaca en tiempo real. El reloj está mostrando el gráfico de frecuencia cardiaca. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="946"/>
+        <location filename="mainwindow.cpp" line="965"/>
         <source>Real-time heart rate. Current sample: %1 beats/minute. Raw Data: %2</source>
         <oldsource>Heart Rate Real Time. Current sample: %1 beats/minute. Raw Data: %2</oldsource>
         <translation>Frecuencia cardíaca en tiempo real. Muestra actual: %1 latidos/minuto. Datos brutos: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="959"/>
+        <location filename="mainwindow.cpp" line="978"/>
         <source>Real-time heart rate. The watch no longer displays the HR chart. Last sample: %1 beats/minute. Raw Data: %2</source>
         <oldsource>Heart Rate Real Time. The watch no longer displays the HR chart. Last sample: %1 beats/minute. Raw Data: %2</oldsource>
         <translation>Frecuencia cardíaca en tiempo real. El reloj ya no muestra el gráfico de FC. Última muestra: %1 latidos/minuto. Datos brutos: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="971"/>
+        <location filename="mainwindow.cpp" line="990"/>
         <source>Real-time heart rate. The watch no longer displays the HR chart. No samples. Raw Data: %1</source>
         <oldsource>Heart Rate Real Time. The watch no longer displays the HR chart. No samples. Raw Data: %1</oldsource>
         <translation>Frecuencia cardíaca en tiempo real. El reloj ya no muestra el gráfico de FC. Sin muestras. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="977"/>
+        <location filename="mainwindow.cpp" line="996"/>
         <source>Real-time heart rate. Error: Invalid data. Raw Data: %1</source>
         <oldsource>Heart Rate Real Time. Error: Invalid data. Raw Data: %1</oldsource>
         <translation>Frecuencia cardíaca en tiempo real. Error: Datos invalidos. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1020"/>
+        <location filename="mainwindow.cpp" line="1040"/>
         <source>O2 Dump Finnished. Raw Data: %1</source>
         <translation>Volcado de O2 finalizado. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1031"/>
+        <location filename="mainwindow.cpp" line="1051"/>
         <source>O2 Dump. Error: Invalid data. Raw Data: %1</source>
         <translation>Volcado de O2. Error: Datos invalidos. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1052"/>
+        <location filename="mainwindow.cpp" line="1072"/>
         <source>O2 Dump. Error: Invalid date. Year: %1 Month: %2 Day: %3 Hour: %4 Raw Data: %5</source>
         <translation>Volcado de O2. Error: Fecha no válida. Año: %1 Mes: %2 Día: %3 Hora: %4 Datos brutos: %5</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1109"/>
+        <location filename="mainwindow.cpp" line="1129"/>
         <source>O2 Dump. Year: %1 Month: %2 Day: %3 Data: %4 Raw Data: %5</source>
         <translation>Volcado de O2. Año: %1 Mes: %2 Día: %3 Hora: %4 Datos brutos: %5</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1130"/>
+        <location filename="mainwindow.cpp" line="1150"/>
         <source>Real-time O2 saturation. The watch is displaying the O2 saturation screen. Raw Data: %1</source>
         <oldsource>Real-time O2 saturation . The watch is displaying the O2 saturation screen. Raw Data: %1</oldsource>
         <translation>Saturación de O2 en tiempo real. El reloj está mostrando la pantalla de saturación de O2. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1142"/>
+        <location filename="mainwindow.cpp" line="1162"/>
         <source>Real-time O2 saturation. Waiting for samples. Raw Data: %1</source>
         <oldsource>Real-time O2 saturation . Waiting for samples. Raw Data: %1</oldsource>
         <translation>Saturación de O2 en tiempo real. Esperando muestras. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1155"/>
+        <location filename="mainwindow.cpp" line="1175"/>
         <source>Real-time O2 saturation. Current sample: %1% O2 saturation. Raw Data: %2</source>
         <oldsource>Real-time O2 saturation . Current sample: %1% O2 saturation. Raw Data: %2</oldsource>
         <translation>Saturación de O2 en tiempo real. Muestra actual: %1% de saturación de O2. Datos brutos: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1168"/>
+        <location filename="mainwindow.cpp" line="1188"/>
         <source>Real-time O2 saturation. The watch no longer displays the O2 saturation screen. Last sample: %1% O2 saturation. Raw Data: %2</source>
         <oldsource>Real-time O2 saturation . The watch no longer displays the O2 saturation screen. Last sample: %1% O2 saturation. Raw Data: %2</oldsource>
         <translation>Saturación de O2 en tiempo real. El reloj ya no muestra la pantalla de saturación de O2. Última muestra: %1% de saturación de O2. Datos brutos: %2</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1174"/>
+        <location filename="mainwindow.cpp" line="1194"/>
         <source>Real-time O2 saturation. Error: Invalid data. Raw Data: %1</source>
         <oldsource>Real-time O2 saturation . Error: Invalid data. Raw Data: %1</oldsource>
         <translation>Saturación de O2 en tiempo real. Error: Datos invalidos. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1205"/>
+        <location filename="mainwindow.cpp" line="1225"/>
         <source>Steps Dump Finnished. Raw Data: %1</source>
         <translation>Volcado de pasos finalizado. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1217"/>
+        <location filename="mainwindow.cpp" line="1230"/>
+        <source>Requesting O2 Dump.</source>
+        <translation>Solicitando volcado de O2.</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="1237"/>
         <source>Steps Dump. Error: Invalid data. Raw Data: %1</source>
         <translation>Volcado de pasos. Error: Datos invalidos. Datos brutos: %1</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1238"/>
+        <location filename="mainwindow.cpp" line="1258"/>
         <source>Steps Dump. Error: Invalid date. Year: %1 Month: %2 Day: %3 Hour: %4 Raw Data: %5</source>
         <translation>Volcado de pasos. Error: Fecha no válida. Año: %1 Mes: %2 Día: %3 Hora: %4 Datos brutos: %5</translation>
     </message>
