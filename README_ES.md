@@ -24,7 +24,7 @@ En el anterior teléfono que tenía, un Android 7, la forma más sencilla de cap
 
 Con el nuevo teléfono que tengo ahora, un Android 10, el proceso no ha sido tan fácil. La única manera sencilla y rápida que he encontrado para conseguir una captura del tráfico Bluetooth ha sido:
 
- 1. Instalar [Wireshark](https://www.wireshark.org/)  y [adb](https://developer.android.com/studio/command-line/adb) en el ordenador con `sudo apt install wireshark-qt adb`.
+ 1. Instalar [Wireshark](https://www.wireshark.org/) y [adb](https://developer.android.com/studio/command-line/adb) en el ordenador con `sudo apt install wireshark-qt adb`.
  2.  [Activar](https://developer.android.com/studio/debug/dev-options) en el teléfono las opciones para desarrolladores.
  3. [Habilitar](https://developer.android.com/studio/debug/dev-options#enable) la depuración por USB.
  4. [Habilitar](https://developer.android.com/studio/debug/dev-options#general) el registro de búsqueda de la Interfaz de Controlador (HCI) de host Bluetooth para iniciar la captura del tráfico Bluetooth.
