@@ -779,3 +779,5 @@ Y esto da lugar al siguiente código C++:
 
  - https://reverse-engineering-ble-devices.readthedocs.io/en/latest/
  - https://github.com/Freeyourgadget/Gadgetbridge/wiki/BT-Protocol-Reverse-Engineering
+ - https://learn.adafruit.com/reverse-engineering-a-bluetooth-low-energy-light-bulb/sniff-protocol
+ - https://support.honeywellaidc.com/s/article/How-to-capture-Bluetooth-traffic-from-and-to-an-Android-Device
