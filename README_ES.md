@@ -319,7 +319,7 @@ Los dígitos `07 e6 08 0d` se repiten en la misma posición. Pasando estos núme
  - `08` = 8
  - `0d` = 13
 
-Estos dígitos son la fecha ,13 de Agosto de 2022, en la que se ha hecho el volcado. Si esos tres dígitos son la fecha es posible que el siguiente sea la hora. Por ejemplo, en el volcado hecho con `f7fa07e50c110e0c` la siguiente columna:
+Estos dígitos son la fecha, 13 de Agosto de 2022, en la que se ha hecho el volcado. Si esos tres dígitos son la fecha es posible que el siguiente sea la hora. Por ejemplo, en el volcado hecho con `f7fa07e50c110e0c` la siguiente columna:
 ```
                vv
 f7 07 e6 08 0d 0a 35 34 34 39 36 40 50 33 32 34 39 3a
@@ -495,7 +495,7 @@ user@DESKTOP:~$ cat 34fa.txt | awk '
 052 250 2022-08-13 10:00: 000  10:10: 098  10:20: ---  10:30: 098  10:40: ---  10:50: ---  11:00: ---  11:10: ---  11:20: ---  11:30: ---  11:40: ---  11:50: ---  12:00: ---  
 052 250 2022-08-13 12:00: 000  12:10: 098  12:20: ---  12:30: 098  12:40: ---  12:50: ---  13:00: ---  13:10: ---  13:20: ---  13:30: ---  13:40: ---  13:50: ---  14:00: ---  
 ```
-De nuevo, contrastando estos valores con los valores de las diferentes gráficas que tiene la App se comprueba que el volcado realizado con el valor `0x34fa` corresponde al volcado de los datos de saturación de O<sub>2</sub> en sangre. Averiguar qué representan los datos de este volcado ha sido particularmente sencillo porque el reloj Cubot N1 siempre da un valor de 98% para la saturación de O<sub>2</sub> en sangre y, aunque se configure el muestreo automático, el reloj sólo toma datos cuando la pantalla de saturación de O<sub>2</sub> se está mostrando en la esfera del reloj. Como ya he dicho, el Cubot N1 es una basura.
+De nuevo, contrastando estos valores con los valores de las diferentes gráficas que tiene la App, se comprueba que el volcado realizado con el valor `0x34fa` corresponde al volcado de los datos de saturación de O<sub>2</sub> en sangre. Averiguar qué representan los datos de este volcado ha sido particularmente sencillo porque el reloj Cubot N1 siempre da un valor de 98% para la saturación de O<sub>2</sub> en sangre y, aunque se configure el muestreo automático, el reloj sólo toma datos cuando la pantalla de saturación de O<sub>2</sub> se está mostrando en la esfera del reloj. Como ya he dicho, el Cubot N1 es una basura.
 
 El resumen del conocimiento obtenido sobre cómo conseguir los datos de saturación de O<sub>2</sub> en sangre:
  - El volcado de datos se solicita al reloj escribiendo en el handle `0x0010` el valor `0x34fa`.
