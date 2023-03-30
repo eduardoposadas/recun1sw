@@ -679,7 +679,7 @@ Characteristic value was written successfully
 user@DESKTOP:~$ gatttool -b 78:02:B7:XX:XX:XX --char-write-req -a 0x001f -n 0100
 Characteristic value was written successfully
 ```
-to [code](https://github.com/eduardoposadas/recun1sw/blob/eb18f5c94df377124461b896d9668415ef14f725/recun1sw/mainwindow.cpp#L547) C++ with Qt:
+to C++ [code](https://github.com/eduardoposadas/recun1sw/blob/eb18f5c94df377124461b896d9668415ef14f725/recun1sw/mainwindow.cpp#L547) with Qt:
 ```C++
 for (const QLowEnergyDescriptor &descriptor : ch.descriptors())
 {
